@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - CUSTOM META TAGS
+    -->
+    <meta name="description" content="Web developer portfolio showcasing skills and projects." />
+    <meta name="author" content="Samarth Holkar" />
+    <meta name="keywords" content="web development, portfolio, JavaScript, React, HTML, CSS , Design" />
+
+    <title> SAMDEV - web developer </title>
+    
+    <!-- 
+    - FAVICON
+    -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - CUSTOM CSS LINK
+    -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- 
+    - GOOGLE FONTS
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+     rel="stylesheet">
+
+    <!-- 
+    - PRELOAD IMAGES
+    -->
+    <link rel="preload" as="image"  href="assets/images/hero-banner.jpg">
+
+    <!-- 
+    - JQUERY CDN
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <!-- 
+    - SCROLL REVEAL JS
+    -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- 
+    - EMAIL JS CDN
+     -->
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+     </script>
+     <script type="text/javascript">
+     (function(){
+      emailjs.init("9z4uF5cN3vNOB9JDv");
+     })();
+     </script>
+
+</head>
+
+<body>
+
+<!-- 
+PRELOADER
+-->
+    <div class="preloader" data-preloader >
+    <div class="preloader-inner">
+        <img src="./favicon.svg" alt="preloader" width="50" height="50" class="img">
+    </div>
+</div>
+
+
+<!-- 
+- @ HEADER
+-->
+
+<header class="header " data-header > 
+    <div class="container">
+
+
+        <a href="https://www.upwork.com/freelancers/~019433ae2aea71c4f2" class="logo"> SAM </a>
+
+        <nav class="navbar"  data-navbar >
+            <ul class="navbar-list" >
+
+
+         <li>
+            <a href="#home" class="navbar-link" data-nav-link >Home</a>
+         </li>
+
+         <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link > Portfolio </a>
+         </li>
+
+         <li>
+            <a href="#skills" class="navbar-link" data-nav-link >Skills</a>
+         </li>
+         
+         <li>
+            <a href="#timeline" class="navbar-link" data-nav-link >Timeline</a>
+         </li>
+        
+         <li>
+            <a href="#pricing" class="navbar-link" data-nav-link >Price</a>
+         </li>
+        
+         <li>
+            <a href="#news" class="navbar-link" data-nav-link >News</a>
+         </li>
+         
+         <li>
+            <a href="#contact" class="navbar-link" data-nav-link >Contact</a>
+         </li>
+
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn " aria-label="toggle menu" data-nav-toggler >
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+
+    </div>
+</header>
+
+    <!--*  MAIN WRAPPER -->
+
+<main class="main">
+    <article>
+
+        <!-- 
+        - @ HERO
+        -->
+        <section class="section hero" id="home" aria-label="hero">
+
+            <div class="container">
+  
+                <figure class="hero-banner img-holder has-before" style="--width : 640 ; --height : 840 ; ">
+                    <img src="assets/images/Cute boy.jpg" alt="samarth HOLKAR" class="img-cover" width="640" height="840">
+                </figure>
+
+
+              <div class="hero-content">
+
+                <p class="section-subtitle"> <s>👋</s> Hii, I am</p> 
+
+                <h1 class="h1 hero-title"> <strong> samarth </strong> holkar </h1>
+
+                <ul class="hero-list">
+
+                    <li>
+                        <a href="#skills" class="list-link">
+                            <span class="span"> Frontend Developer </span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="list-link">
+                            <span class="span">Ui / Ux Designer </span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="list-link">
+                            <span class="span">Backend Developer </span>
+
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                 <ul class="exp-list">
+
+                    <!-- <li class="list-item">
+                        <strong class="strong" data-number="30" >0+</strong>
+
+                        <span class="span">
+                            Realtime 
+                            Projects
+                        </span>
+                    </li>
+
+                    <li class="list-item">
+                        <strong class="strong" data-number="178" >0+</strong>
+
+                        <span class="span">
+                            Happy
+                            Customers
+                        </span>
+                    </li> -->
+
+                    <a href="https://www.github.com/smrthh" target="_blank"  class="btn-prime ">
+                        Github 
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+    
+                    <a href="https://www.linkedin.com/in/smrthholkar-webdev-clqn6r8/" target="_blank" class="btn-prime" >
+                        Linkedin
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    
+                </ul> 
+
+
+ 
+              <a href="#portfolio" class="slide-down-btn" aria-label="scroll down" data-scroll-down >
+                <ion-icon name="chevron-down-circle-outline"  ></ion-icon>
+              </a>
+
+
+              </div>
+
+
+            </div>
+
+
+        </section>
+
+        <!-- 
+       - @ PORTFOLIO
+        -->
+        <section class="section portfolio" id="portfolio" aria-label="portfolio">
+            <div class="container">
+
+                <p class="section-subtitle">Portfolio </p>
+
+                <h2 class="h2 section-title">Selected Works</h2>
+
+                <ul class="has-scrollbar">
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/projectMCRUX.png" alt="Magic Art" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="https://github.com/smrthh/LANDING-PAGE" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title"> Montia Crux </h3>
+
+                                 <p class="card-text">Animated Design</p>
+                                 <p>Gsap </p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/Izuku Midoriya.jpg" alt="Bonna Green" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">Bonna Green</h3>
+
+                                 <p class="card-text">Youtube</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-3.jpg" alt="Leo Dandora" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">Leo Dandora</h3>
+
+                                 <p class="card-text">Soundcloud</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-4.jpg" alt="Folio Grasia" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">Folio Grasia</h3>
+
+                                 <p class="card-text">Detail</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-5.jpg" alt="Viva Mercury" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">Viva Mercury</h3>
+
+                                 <p class="card-text">Image</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="card">
+
+                            <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                                <img src="assets/images/portfolio-6.jpg" alt="Santa Onera" class="img-cover" width="600" height="675" loading="lazy" >
+                            </figure>
+
+                            <a href="#" class="card-content">
+                                <ion-icon name="logo-github"></ion-icon>
+
+                                 <h3 class="h3 card-title">Santa Onera</h3>
+
+                                 <p class="card-text">Image</p>
+
+                            </a>
+
+                        </div>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- 
+        - @ SKILLS
+        -->
+        <section class="section skills has-before" id="skills" aria-label="skills" style="background-image: url(assets/images/skills-bg.png);">
+        <div class="container">
+
+            <div class="skills-content">
+
+
+                <p class="section-subtitle">Skills</p>
+
+                <h2 class="h2 section-title">Programming Skills </h2>
+
+                <p class="section-text"> The hardwork and dedication and achieved the following skills 
+                </p>
+
+                <ul class="skills-list">
+
+
+                    <li class="skills-item">
+                     <div class="wrapper">
+                        <h3 class="skills-title">HTML & CSS</h3>
+
+                        <data class="skill-value" value="95%">95%</data>
+                    </div>
+
+                        <div class="progress-box">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+
+    
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper">
+                           <h3 class="skills-title"> Javascript </h3>
+   
+                           <data class="skill-value" value="80%">80%</data>
+                        </div>
+
+                           <div class="progress-box">
+                               <div class="progress" style="width: 80%;"></div>
+                           </div>
+                        
+                       </li>
+
+                       
+                    <li class="skills-item">
+                        <div class="wrapper">
+                           <h3 class="skills-title"> React </h3>
+   
+                           <data class="skill-value"  value="60%" >60%</data>
+                        </div>
+
+                           <div class="progress-box">
+                        <div class="progress" style="width: 60% ;" ></div>
+                           </div>
+   
+                       </li>
+
+                       <li class="skills-item">
+                        <div class="wrapper">
+                           <h3 class="skills-title"> Tailwind & Bootstrap </h3>
+   
+                           <data class="skill-value"  value="90%" >90%</data>
+                        </div>
+
+                           <div class="progress-box">
+                        <div class="progress" style="width: 90% ;" ></div>
+                           </div>
+   
+                       </li>
+
+                       <li class="skills-item">
+                        <div class="wrapper">
+                           <h3 class="skills-title">Design </h3>
+   
+                           <data class="skill-value"  value="70%" >70%</data>
+                        </div>
+
+                           <div class="progress-box">
+                        <div class="progress" style="width: 70% ;" ></div>
+                           </div>
+   
+                       </li>
+
+                       <li class="skills-item">
+                        <div class="wrapper">
+                           <h3 class="skills-title"> Backend </h3>
+   
+                           <data class="skill-value"  value="60%" >60%</data>
+                        </div>
+
+                           <div class="progress-box">
+                        <div class="progress" style="width: 60% ;" ></div>
+                           </div>
+   
+                       </li>
+
+                       <!-- <button class="resume-btn"> CV
+                        <ion-icon name="download-outline"></ion-icon>
+                       </button> -->
+
+
+                </ul>
+
+
+
+            </div>
+
+            <div class="skills-banner has-before">
+
+            </div>
+
+         </div>
+        </section>
+
+        <!-- 
+        - @ TIMELINE
+        -->
+        <!-- <section class="section timeline" id="timeline" aria-label="timeline">
+            <div class="container">
+
+                <p class="section-subtitle">Timeline</p>
+
+                <h2 class="h2 section-title">Education </h2>
+
+                <ul class="timeline-list">
+
+                    <li class="timeline-item">
+
+                      <h3 class="item-period">September, 2022 , - May 2025 </h3>
+
+                      <p class="item-title">Batchelor of science ( Bsc Chem )</p>
+
+                      <p class="item-address">Pune University</p>
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h3 class="item-period">August, 2025 - November, 2027</h3>
+  
+                        <p class="item-title"> Master of Computer Application (MCA)
+                            </p>
+  
+                        <p class="item-address"> Pune University </p>
+                    </li>
+                    </ul>
+
+
+
+       <section class="section timeline" id="timeline" aria-label="timeline">
+                    <p class="section-subtitle"><ion-icon name="ribbon-outline"></ion-icon></p>
+
+                    <h2 class="h2 section-title">certifications</h2>
+  
+                    <ul class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h3 class="item-period"> Aug 2023 </h3>
+  
+                        <p class="item-title"> Generative AI
+                        </p>
+  
+                        <p class="item-address"> Linkedin
+                        </p>
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h3 class="item-period">Software Development</h3>
+  
+                        <p class="item-title">Fullstack Developer
+                        </p>
+  
+                        <p class="item-address">IT Vedant
+                        </p>
+                    </li>
+                </ul>
+
+      
+
+       <section class="section timeline" id="timeline" aria-label="timeline">
+        <p class="section-subtitle">relative</p>
+
+        <h2 class="h2 section-title">Experience</h2>
+
+        <ul class="timeline-list">
+
+        <li class="timeline-item">
+
+            <h3 class="item-period">December 2022 - Present</h3>
+
+            <p class="item-title">Frontend Developer
+            </p>
+
+            <p class="item-address">Persistent Systems , Pune 412306
+            </p>
+        </li>
+
+        <li class="timeline-item">
+
+            <h3 class="item-period">August 2022 - November 2022 </h3>
+
+            <p class="item-title"> Ui Ux Designer Intern
+            </p>
+
+            <p class="item-address">Persistent Systems , Pune 412306
+            </p>
+        </li>
+     </ul>
+
+          </section
+ </section>
+
+            </div>
+        </section> -->
+
+        <!-- 
+        - @ PRICING
+        -->
+        <section class="section pricing" style="margin-block-start: 2rem;" id="pricing" aria-label="pricing" style="margin-top: -150px;">
+            <div class="container">
+
+
+                <div class="pricing-content">
+
+                    <p class="section-subtitle">Pricing</p>
+
+                    <h2 class="h2 section-title">Service Prices</h2>
+
+                    <p class="section-text">For more than 2+  Years our experts have been accomplishing enough with modern Web Development, new generation web and app programming language of modern Development
+                    </p>   
+              
+                </div>
+
+                <ul class="pricing-list">
+
+                    <li class="left">
+                        <div class="pricing-card">
+        
+                            <ion-icon name="logo-react"></ion-icon>
+
+                   <h3 class="card-title"> React Development </h3>
+                          
+                   <data class="card-price" value="$50">$50</data>
+                        </div>
+                    </li>
+
+                    <li class="right">
+                        <div class="pricing-card">
+        
+                            <ion-icon name="logo-html5" aria-hidden="true"></ion-icon>
+                          
+
+                   <h3 class="card-title">HTML Development</h3>
+                          
+                   <data class="card-price" value="$20">$20</data>
+                        </div>
+                    </li>
+
+                    <li class="left">
+                        <div class="pricing-card" class="card-three">
+        
+                            <ion-icon name="logo-nodejs"></ion-icon>
+
+                   <h3 class="card-title">Backend Development</h3>
+                          
+                   <data class="card-price" value="$300">$50</data>
+                        </div>
+                    </li>
+
+                    <li class="right">
+                        <div class="pricing-card">
+        
+                   <ion-icon name="qr-code" aria-hidden="true"></ion-icon>
+
+                   <h3 class="card-title">Digital Marketing </h3>
+                          
+                   <data class="card-price" value="$200">$50 - $100</data>
+                        </div>
+                    </li>
+
+                    <li class="left">
+                        <div class="pricing-card">
+        
+                            <ion-icon name="image" aria-hidden="true"></ion-icon>
+
+                   <h3 class="card-title"> Design</h3>
+                          
+                   <data class="card-price" value="$100">$50</data>
+                        </div>
+                    </li>
+
+
+
+
+
+
+                </ul>
+
+            </div> 
+        </section>
+
+        <!-- 
+        - @ NEWS
+        -->
+        <!-- <section class="section news" id="news" aria-label="news">
+            <div class="container">
+
+              <p class="section-subtitle"> go to</p>
+
+              <h2 class="h2 section-title">about</h2>
+
+              <ul class="has-scrollbar">
+
+                <li class="scrollbar-item" data-resume-card >
+                    <div class="card news-card ">
+
+                        <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                            <img src="assets/images/resume.jpg" alt="Code Gets New JavaScript Debugger" class="img-cover" width="600" height="675" loading="lazy" >
+                        </figure>
+
+                        <a href="#" class="card-content">
+                            <ion-icon name="prism-outline"></ion-icon>
+
+                             <time class="2022-09-02"> Download  </time>
+
+                             <h3 class="h3 card-title"> RESUME
+                            </h3>
+
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="scrollbar-item">
+                    <div class="card news-card">
+
+                        <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                            <img src="assets/images/upwork.jpg" alt="Javalin Framework for Kotlin and Java Updated" class="img-cover" width="600" height="675" loading="lazy" >
+                        </figure>
+
+                        <a href="https://www.upwork.com/freelancers/~019433ae2aea71c4f2" class="card-content">
+                            <ion-icon name="prism-outline"></ion-icon>
+
+                             <time class="2022-08-17">Freelancer</time>
+
+                             <h3 class="h3 card-title">UPWORK
+                            </h3>
+
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="scrollbar-item">
+                    <div class="card news-card">
+
+                        <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                            <img src="assets/images/Digital collage.jpg" alt="JavaScript Dominated Open Source in 2022" class="img-cover" width="600" height="675" loading="lazy" >
+                        </figure>
+
+                        <a href="#" class="card-content">
+                            <ion-icon name="prism-outline"></ion-icon>
+
+                             <time class="2022-07-05">
+                              Freelancer</time>
+
+                             <h3 class="h3 card-title">FIVERR
+                            </h3>
+
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="scrollbar-item">
+                    <div class="card news-card">
+
+                        <figure class="card-banner img-holder" style="--width : 600 ; --height : 675 ;">
+                            <img src="assets/images/hire-me.jpg" alt="Perfecto Tests Progressive Web Apps" class="img-cover" width="600" height="675" loading="lazy" >
+                        </figure>
+
+                        <a href="#" class="card-content">
+                            <ion-icon name="prism-outline"></ion-icon>
+
+                             <time class="2022-04-22">Handshake my work</time>
+
+                             <h3 class="h3 card-title">HIRE ME 
+                            </h3>
+
+                        </a>
+
+                    </div>
+                </li>
+                
+            </ul>
+
+              </div>
+            </div>
+        </section> -->
+
+
+        <!-- 
+        - @ CONTACT
+        -->
+        <section class="section contact" id="contact" aria-label="contact">
+            <div class="container">
+
+                <div class="contact-content">
+
+              <p class="section-subtitle">Contact </p>
+
+              <h2 class="h2 section-title">Get In Touch</h2>
+
+              <p class="section-text">Please fill out the given form if you have any job or query for getting seamless website or product design 
+            </p>
+
+            <ul class="contact-list">
+
+                <li class="contact-item">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <address class="contact-link">
+                        <a href="https://www.google.com/maps/place/Pune,+Maharashtra/@18.5467236,73.5739965,10.75z/data=!4m14!1m7!3m6!1s0x3bc2bbae9a30637b:0xeedcacb84f858053!2sYour+Address+Property+Consultants!8m2!3d18.6011952!4d73.7456265!16s%2Fg%2F11n_m763h8!3m5!1s0x3bc2bf2e67461101:0x828d43bf9d9ee343!8m2!3d18.5204303!4d73.8567437!16zL20vMDE1eTJx?entry=ttu" target="_blank">Pune , Maharashtra , INDIA</a>
+                        
+                    </address>
+                </li>
+
+                <li class="contact-item">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                 <a  href="tel:+91 9307291628" class="contact-link">+91 9307291628 </a>
+                </li>
+
+                <li class="contact-item">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                    <a href="mailto:samarthholkar700@gmail.com" class="contact-link">samarthholkar700@gmail.com
+                    
+                    </a>
+                </li>
+<!-- 
+                <li class="contact-item">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+
+                    <a href="www.samdev.com" class="contact-link">
+                        samarth Holkar
+                    </a>
+                </li> -->
+
+            </ul>
+
+                </div>
+
+                <div id="contact-form" class="contact-form">
+                    <form id="myForm" action="">
+                     
+                      <input type="text" id="name" name="name" aria-label="name" class="input-field text" placeholder="Name" autocomplete="off" required>
+                  
+                      <input type="email" id="email" name="email_address" class="input-field mail" placeholder="Email" autocomplete="off" required >
+                  
+                      <textarea id="message" name="message" class="input-field area" placeholder="Drop A Message " autocomplete="off"  required ></textarea>
+                  
+                      <button type="submit" class="btn btn-primary" onclick="sendMail()">
+                        Mail
+                        <!-- <ion-icon name="rocket-outline"></ion-icon> -->
+                        <!-- <ion-icon name="mail-unread-outline"></ion-icon> -->
+                      </button>
+
+                    </form>
+                  
+                    <div class="thank-you-message" id="thank-you-message" style="display: none;">
+                        thanks
+                    </div>
+
+                  </div>
+
+            </div>
+        </section>
+
+        <!-- 
+        - @ FOOTER
+        -->
+        <footer class="footer">
+            <div class="container">
+
+                <p class="copyright">&copy; 2024. All rights reserved by 
+                    <a href="#"class="copyright-link">smrth.3</a></p>
+
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="https://www.github.com/smrthh" class="social-link"><ion-icon name="logo-github"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/smrthholkar-webdev-clqn6r8" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="https://www.instagram.com/smrth.3?r=nametag" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </li>
+
+                    
+                    <li>
+                       <a href="#" class="social-link"> <ion-icon class="social-link" name="logo-behance"></ion-icon></a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="#" class="social-link"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    </li> -->
+
+
+                </ul>
+
+
+            </div>
+        </footer>
+
+
+    </article>
+</main>
+
+
+
+
+    <!-- 
+    - ION ICON LINK
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- 
+    - CUSTOM JS LINK
+    -->
+    <script src="assets/js/script.js"></script>
+
+
+
+</body>
+</html>
